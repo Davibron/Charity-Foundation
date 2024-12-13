@@ -260,6 +260,14 @@ body {
   background: rgb(33, 157, 128);
   cursor: pointer;
 }
+.audt {
+  font-family: Monserrat;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  width: 70%;
+  text-transform: capitalize;
+}
 /* ABOUT US END */
 
 
@@ -275,6 +283,15 @@ body {
 
 .wtc {
   width: 45%;
+}
+
+.wtct {
+  font-family: Monserrat;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  width: 70%;
+  text-transform: capitalize;
 }
 
 .feature-img {
@@ -433,6 +450,14 @@ body {
   flex-direction: row;
   align-items: center;
 }
+
+.lct {
+  font-family: Monserrat;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 70%;
+  text-transform: capitalize;
+}
 .lc-text h2 {
   font-size: 1.6rem;
   font-family: Playfair Display;
@@ -581,6 +606,7 @@ body {
   align-items: center;
   text-transform: capitalize;
   color: white;
+  font-family: Monserrat;
 }.tm-text h4 {
   width: 50rem;
   font-size: 12px;
@@ -645,6 +671,14 @@ body {
   font-weight: 500;
 }
 
+.tmt {
+  font-family: Monserrat;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 70%;
+  text-transform: capitalize;
+}
+
 .tm-about {
   position: absolute;
   width: 100%;
@@ -660,6 +694,15 @@ body {
 
 .ourfunfact {
   width: 70%;
+}
+
+.off-text {
+  font-family: Monserrat;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 45%;
+  margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .ourfunfact h4{
@@ -685,7 +728,6 @@ body {
   height: 230px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   margin-bottom: 100px;
 }
 
@@ -693,9 +735,22 @@ body {
   width: 22.5%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(33, 157, 128, 0.08);
+}
+
+.off-count {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.off-name {
+  font-size: .6rem;
+  margin-top: 10px;
+
 }
 
 .off-img {
